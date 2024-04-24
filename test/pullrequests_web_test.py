@@ -15,7 +15,7 @@ REPO = "allure2"
 BRANCH = "new-feature"
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="modul")
 def web_driver():
     steps.start_driver()
     yield
